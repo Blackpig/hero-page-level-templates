@@ -135,7 +135,7 @@ class Content_model extends CI_Model
 	*/
 
 	//function update_content ($content_id, $title = '', $url_path = '', $topics = array(), $privileges = array(), $publish_date = FALSE, $custom_fields = array()) {
-	function update_content ($content_id, $title = '', $url_path = '', $topics = array(), $privileges = array(), $publish_date = FALSE, $custom_fields = array(), $content_page_template) {
+	function update_content ($content_id, $title = '', $url_path = '', $topics = array(), $privileges = array(), $publish_date = FALSE, $custom_fields = array(), $content_page_template = '') {
 	//Blackpig - page template override
 
 		$content = $this->get_content($content_id, TRUE);
