@@ -14,6 +14,8 @@ To install:
 
 1. Make a back-up copy of the /app/modules/publish folder
 2. Replace the files in the above /app/modules/publish folder with their counterparts in this git respository.
+3. Execute the following sql against your database:
+    ALTER TABLE `content` ADD COLUMN `content_page_template` VARCHAR(255) NOT NULL;
 
 Feel free to fork, improve, fix etc.
 
